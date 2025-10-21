@@ -11,7 +11,7 @@
     <div class="kt-card max-w-[370px] w-full">
         <div class="kt-card-content flex flex-col gap-5 p-10" id="sign_in_form">
             <div class="text-center mb-2.5">
-                <h3 class="text-lg font-medium text-mono leading-none mb-2.5">
+                <h3 class="text-lg font-medium text-mono leading-none">
                     ورود به سیستم
                 </h3>
                 <div class="flex items-center justify-center font-medium">
@@ -34,14 +34,7 @@
                                 Use Apple
                             </a>
                         </div>--}}
-            <div class="flex items-center gap-2">
-      <span class="border-t border-border w-full">
-      </span>
-                <span class="text-xs text-muted-foreground font-medium uppercase">
-      </span>
-                <span class="border-t border-border w-full">
-      </span>
-            </div>
+            <div class="kt-dropdown-menu-separator"></div>
             <div class="flex flex-col gap-1">
                 <label class="kt-form-label font-normal text-mono">
                     نام کاربری

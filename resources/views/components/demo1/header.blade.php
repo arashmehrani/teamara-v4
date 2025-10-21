@@ -5,28 +5,28 @@
     <div class="kt-container-fluid flex items-stretch justify-between lg:gap-4" id="headerContainer">
         <!-- Mobile Logo -->
         <div class="-ms-1 flex items-center gap-2.5 lg:hidden">
-            <a class="shrink-0" href="html/demo1.html">
-                <img class="max-h-[25px] w-full" src="assets/media/app/mini-logo.svg"/>
+            <a class="shrink-0" href="{{route('dashboard')}}">
+                <img class="max-h-[25px] w-full" src="{{asset('images/app-logo.svg')}}"/>
             </a>
             <div class="flex items-center">
                 <button class="kt-btn kt-btn-icon kt-btn-ghost" data-kt-drawer-toggle="#sidebar">
                     <i class="ki-filled ki-menu">
                     </i>
                 </button>
-                <button class="kt-btn kt-btn-icon kt-btn-ghost" data-kt-drawer-toggle="#mega_menu_wrapper">
+                {{--<button class="kt-btn kt-btn-icon kt-btn-ghost" data-kt-drawer-toggle="#mega_menu_wrapper">
                     <i class="ki-filled ki-burger-menu-2">
                     </i>
-                </button>
+                </button>--}}
             </div>
         </div>
         <!-- End of Mobile Logo -->
         @include('components.shared.mega-menu')
         <!-- Topbar -->
         <div class="flex items-center gap-2.5">
-            @include('components.shared.topbar-search-modal')
-            @include('components.shared.topbar-notification-dropdown')
-            @include('components.shared.topbar-chat')
-            @include('components.shared.topbar-apps')
+           {{-- @include('components.shared.topbar-search-modal')--}}
+            {{--@include('components.shared.topbar-notification-dropdown')--}}
+            {{--@include('components.shared.topbar-chat')--}}
+            {{--@include('components.shared.topbar-apps')--}}
             @include('components.shared.topbar-user-dropdown')
         </div>
         <!-- End of Topbar -->
