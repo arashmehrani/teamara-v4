@@ -1,0 +1,38 @@
+/* نسخه با اعداد فارسی */
+@font-face {
+    font-family: "azarmehr-fa";
+    src: url("../fonts/farsi-fonts-fa-num/azarmehr-400.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "azarmehr-fa";
+    src: url("../fonts/farsi-fonts-fa-num/azarmehr-700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+/* نسخه با اعداد انگلیسی */
+@font-face {
+    font-family: "azarmehr-en";
+    src: url("../fonts/farsi-fonts-en-num/azarmehr-400.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "azarmehr-en";
+    src: url("../fonts/farsi-fonts-en-num/azarmehr-700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+/* پیش‌فرض: اعداد فارسی */
+body {
+    font-family: "azarmehr-fa", sans-serif;
+}
+/* فقط جاهایی که می‌خواهی اعداد انگلیسی باشند */
+.en-num {
+    font-family: "azarmehr-en", sans-serif !important;
+}
