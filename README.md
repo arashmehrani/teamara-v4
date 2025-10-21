@@ -1,14 +1,15 @@
 ## **Plugins**
 * laravel 12.34.0
 * livewire 3.6.4
-* spatie/laravel-permission 6.9.0
-* hekmatinasser/verta 8.4.1
+* spatie/laravel-permission 6.21.0
+* hekmatinasser/verta 8.5
 * morilog/jalali 3.4.2
+* beyondcode/laravel-query-detector --dev 2.1.0
+* barryvdh/laravel-debugbar --dev --dev 3.16.0
+
 * phpoffice/phpword 1.2.0
 * rap2hpoutre/fast-excel 5.5.0
 * simplesoftwareio/simple-qrcode 4.2.0
-* beyondcode/laravel-query-detector --dev 1.8.0
-* maximebf/debugbar --dev 1.22.3
 
 ## **instalation**
 1- Install PHP dependencies: `composer install`

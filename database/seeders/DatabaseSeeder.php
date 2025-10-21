@@ -21,5 +21,7 @@ class DatabaseSeeder extends Seeder
             'username' => 'teamara',
             'password' => Hash::make('123456'),
         ]);
+
+        $this->call(RolesAndPermissionsSeeder::class);
     }
 }
